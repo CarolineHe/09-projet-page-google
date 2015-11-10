@@ -2,44 +2,63 @@ body {
   font-family: arial, sans-serif;
   margin: 0 auto;
 }
+
 header {
   font-size: 13px;
-margin-left: 95em;
+  float: right;
 }
+
 header ul li {
   display: inline;
   list-style-type: none;
-
+  color: grey;
+  margin-right: 20px;
 }
+
+.center_img {
+    vertical-align:middle;
+}
+
+code {
+    background-color: #1f37b5;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 5px 10px;
+    display: inline-block;
+    margin:10px 0;
+}
+
+/*stop float*/
+.clear {
+clear : both;
+}
+
 section {
   width: 50%;
-  margin: auto;
-  margin-top: 8%;
+  margin: 0 auto;
+  text-align: center;
 }
-footer {
-  font-size: small;
-  display: block;
-  background-color: #f2f2f2;
-  border: 1px solid #e4e4e4;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
+
+.logo {
+  margin:auto;
+  margin-top: 10%;
 }
-footer ul li {
-  display: inline-flex;
-  list-style-type: none;
-}
+
 #searchbar {
   padding-left: 16px;
   padding-right: 16px;
-  text-align: center;
+  margin:auto auto;
+  color: blue;
 }
-.champ {
+
+.champs {
   height: 2em;
   width: 500px;
   display: block;
   margin-left: 7em;
 }
+
 .bouton {
   font-weight: bold;
   color: #757575;
@@ -49,17 +68,30 @@ footer ul li {
   height: 38px;
   line-height: 27px;
   margin-top: 5%;
+}
 
+footer ul li {
+  display: inline-flex;
+  list-style-type: none;
 }
-.logo {
-  margin-left: 7em;
+
+footer {
+  font-size: small;
+  display: block;
+  background-color: #f2f2f2;
+  border: 1px solid #e4e4e4;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
+
 .left {
   color: #666;
   float: left;
   padding-right: 2%;
   padding-bottom: 1%;
 }
+
 .right {
   color: #777;
   float: right;
