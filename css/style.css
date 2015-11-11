@@ -1,101 +1,320 @@
-body {
-  font-family: arial, sans-serif;
-  margin: 0 auto;
+
+/*/////////////////////////////screen between 200px-767px////////////////////////*/
+@media screen and (max-width: 767px) {
+    body {
+      font-family: arial, sans-serif;
+      margin: 0 auto;
+    }
+
+    header {
+      font-size: 1em;
+      float: right;
+    }
+
+    header ul li {
+      display: inline;
+      list-style-type: none;
+      color: grey;
+      font-size: 0.8em;
+    }
+
+    .center_img {
+        vertical-align:middle;
+    }
+
+    code {
+        background-color: #1f37b5;
+        color: white;
+        font-size: 1em;
+        font-weight: bold;
+        padding: 5px 10px;
+        display: inline-block;
+        margin:10px 0;
+    }
+
+    /*stop float*/
+    .clear {
+    clear : both;
+    }
+
+    section {
+      width: 90%;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .logo {
+      max-width: 100%;
+     }
+
+    #searchbar {
+      padding-left: 5px;
+      padding-right: 5px;
+      color: blue;
+    }
+
+    .champs {
+      height: 2em;
+      width: 100%;
+      margin-left: -4px;
+      display: block;
+     }
+
+    .bouton {
+      font-weight: bold;
+      color: #757575;
+      border-radius: 2px;
+      border: lightgray;
+      background-color: #f2f2f2;
+      height: 38px;
+      line-height: 27px;
+      margin-top: 5%;
+      font-size: 0.8em;
+    }
+
+    footer ul li {
+      display: inline-flex;
+      list-style-type: none;
+    }
+
+    footer {
+      font-size: small;
+      display: none;
+      background-color: #f2f2f2;
+      border: 1px solid #e4e4e4;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+
+    .left {
+      color: #666;
+      float: left;
+      padding-right: 2%;
+      padding-bottom: 1%;
+    }
+
+    .right {
+      color: #777;
+      float: right;
+      padding-right: 2%;
+      padding-bottom: 1%;
+      margin-right: 1%;
+    }
+
 }
 
-header {
-  font-size: 13px;
-  float: right;
+
+
+/*/////////////////////////////screen between 768px-1023px////////////////////////*/
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    body {
+      font-family: arial, sans-serif;
+      margin: 0 auto;
+    }
+
+    header {
+      font-size: 1em;
+      float: right;
+    }
+
+    header ul li {
+      display: inline;
+      list-style-type: none;
+      color: grey;
+      margin-right: 20px;
+    }
+
+    .center_img {
+        vertical-align:middle;
+    }
+
+    code {
+        background-color: #1f37b5;
+        color: white;
+        font-size: 1em;
+        font-weight: bold;
+        padding: 5px 10px;
+        display: inline-block;
+        margin:10px 0;
+    }
+
+    /*stop float*/
+    .clear {
+    clear : both;
+    }
+
+    section {
+      width: 50%;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .logo {
+      margin:auto;
+      margin-top: 10%;
+      max-width: 100%;
+    }
+
+    #searchbar {
+      padding-left: 16px;
+      padding-right: 16px;
+      margin:auto auto;
+      color: blue;
+    }
+
+    .champs {
+      height: 2em;
+      width: 100%;
+      display: block;
+    }
+
+    .bouton {
+      font-weight: bold;
+      color: #757575;
+      border-radius: 2px;
+      border: lightgray;
+      background-color: #f2f2f2;
+      height: 38px;
+      line-height: 27px;
+      margin-top: 5%;
+    }
+
+    footer ul li {
+      display: inline-flex;
+      list-style-type: none;
+    }
+
+    footer {
+      font-size: small;
+      display: block;
+      background-color: #f2f2f2;
+      border: 1px solid #e4e4e4;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+
+    .left {
+      color: #666;
+      float: left;
+      padding-right: 2%;
+      padding-bottom: 1%;
+    }
+
+    .right {
+      color: #777;
+      float: right;
+      padding-right: 2%;
+      padding-bottom: 1%;
+      margin-right: 1%;
+    }
+
 }
 
-header ul li {
-  display: inline;
-  list-style-type: none;
-  color: grey;
-  margin-right: 20px;
-}
 
-.center_img {
-    vertical-align:middle;
-}
+/*/////////////////////////////screen between 1024px-1500px////////////////////////*/
+@media screen and (min-width: 1024px) {
 
-code {
-    background-color: #1f37b5;
-    color: white;
-    font-size: 1em;
-    font-weight: bold;
-    padding: 5px 10px;
-    display: inline-block;
-    margin:10px 0;
-}
+    body {
+      font-family: arial, sans-serif;
+      margin: 0 auto;
+    }
 
-/*stop float*/
-.clear {
-clear : both;
-}
+    header {
+      font-size: 1em;
+      float: right;
+    }
 
-section {
-  width: 50%;
-  margin: 0 auto;
-  text-align: center;
-}
+    header ul li {
+      display: inline;
+      list-style-type: none;
+      color: grey;
+      margin-right: 20px;
+    }
 
-.logo {
-  margin:auto;
-  margin-top: 10%;
-}
+    .center_img {
+        vertical-align:middle;
+    }
 
-#searchbar {
-  padding-left: 16px;
-  padding-right: 16px;
-  margin:auto auto;
-  color: blue;
-}
+    code {
+        background-color: #1f37b5;
+        color: white;
+        font-size: 1em;
+        font-weight: bold;
+        padding: 5px 10px;
+        display: inline-block;
+        margin:10px 0;
+    }
 
-.champs {
-  height: 2em;
-  width: 500px;
-  display: block;
-  margin-left: 7em;
-}
+    /*stop float*/
+    .clear {
+    clear : both;
+    }
 
-.bouton {
-  font-weight: bold;
-  color: #757575;
-  border-radius: 2px;
-  border: lightgray;
-  background-color: #f2f2f2;
-  height: 38px;
-  line-height: 27px;
-  margin-top: 5%;
-}
+    section {
+      width: 50%;
+      margin: 0 auto;
+      text-align: center;
+    }
 
-footer ul li {
-  display: inline-flex;
-  list-style-type: none;
-}
+    .logo {
+      margin:auto;
+      margin-top: 10%;
+    }
 
-footer {
-  font-size: small;
-  display: block;
-  background-color: #f2f2f2;
-  border: 1px solid #e4e4e4;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-}
+    #searchbar {
+      padding-left: 16px;
+      padding-right: 16px;
+      margin:auto auto;
+      color: blue;
+    }
 
-.left {
-  color: #666;
-  float: left;
-  padding-right: 2%;
-  padding-bottom: 1%;
-}
+    .champs {
+      height: 2em;
+      width: 100%;
+      display: block;
+    }
 
-.right {
-  color: #777;
-  float: right;
-  padding-right: 2%;
-  padding-bottom: 1%;
-  margin-right: 1%;
+    .bouton {
+      font-weight: bold;
+      color: #757575;
+      border-radius: 2px;
+      border: lightgray;
+      background-color: #f2f2f2;
+      height: 38px;
+      line-height: 27px;
+      margin-top: 5%;
+    }
+
+    footer ul li {
+      display: inline-flex;
+      list-style-type: none;
+    }
+
+    footer {
+      font-size: small;
+      display: block;
+      background-color: #f2f2f2;
+      border: 1px solid #e4e4e4;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+
+    .left {
+      color: #666;
+      float: left;
+      padding-right: 2%;
+      padding-bottom: 1%;
+    }
+
+    .right {
+      color: #777;
+      float: right;
+      padding-right: 2%;
+      padding-bottom: 1%;
+      margin-right: 1%;
+    }
+
 }
